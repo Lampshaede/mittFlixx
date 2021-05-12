@@ -10,11 +10,15 @@ input {
 }
 
 .movies {
-  border: 0px solid lightblue;
-  width: 100px;
-  height: 10rem;
-  margin: 5px;
-  background-color: blueviolet;
-  justify-content: space-around;
-  padding: 2px;
+  background-color: hsl(20, 5.3%, 11.2%);  
+  height: 90vh;
+  padding: 3%;
+}
+
+.card{
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 45%;
+  width: 16%;
+  margin-bottom: 1.5rem;
 }
