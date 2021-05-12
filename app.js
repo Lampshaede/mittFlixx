@@ -1,5 +1,4 @@
-// my API KEY IS 458c2882
-// const APIKey = "458c2882";
+const APIKey = ""; // Insert your API Key here
 const defaultURL = "http://www.omdbapi.com/?s=";
 const getMovies = async(searchTerm) => {
   const response = await fetch(`${defaultURL}${searchTerm}&apikey=${APIKey}`);
