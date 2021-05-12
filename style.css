@@ -1,0 +1,20 @@
+input {
+  font-weight: bolder;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 10px white;
+  border-radius: 9px;
+}
+
+.movies {
+  border: 0px solid lightblue;
+  width: 100px;
+  height: 10rem;
+  margin: 5px;
+  background-color: blueviolet;
+  justify-content: space-around;
+  padding: 2px;
+}
