@@ -1,5 +1,5 @@
 // my API KEY IS 458c2882
-const APIKey = "458c2882";
+// const APIKey = "458c2882";
 const defaultURL = "http://www.omdbapi.com/?s=";
 const getMovies = async(searchTerm) => {
   const response = await fetch(`${defaultURL}${searchTerm}&apikey=${APIKey}`);
@@ -11,5 +11,5 @@ const getMovies = async(searchTerm) => {
   return data;
 }
 getMovies('Star+Wars')
-  .then((data) => console.log(`Resolved`, data))
+  .then((data) => {console.log(`Resolved`, data)})
   .catch((err) => console.log(`failed: `, err.message));
